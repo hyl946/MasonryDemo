@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E59AC342C78C1A24C9DF8B /* libPods-Masonry-UIScrollerViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F533F4BD447173B076D18C3 /* libPods-Masonry-UIScrollerViewUITests.a */; };
+		4654DDB62DD55816FB812E76 /* libPods-Masonry-UIScrollerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B06CE6DB03A166F97D6585 /* libPods-Masonry-UIScrollerView.a */; };
+		5C1A7ECE208886D6009AEB68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7ECD208886D6009AEB68 /* AppDelegate.m */; };
+		5C1A7ED1208886D6009AEB68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7ED0208886D6009AEB68 /* ViewController.m */; };
+		5C1A7ED4208886D6009AEB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A7ED2208886D6009AEB68 /* Main.storyboard */; };
+		5C1A7ED6208886D6009AEB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A7ED5208886D6009AEB68 /* Assets.xcassets */; };
+		5C1A7ED9208886D6009AEB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A7ED7208886D6009AEB68 /* LaunchScreen.storyboard */; };
+		5C1A7EDC208886D6009AEB68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7EDB208886D6009AEB68 /* main.m */; };
+		5C1A7EE6208886D6009AEB68 /* Masonry_UIScrollerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7EE5208886D6009AEB68 /* Masonry_UIScrollerViewTests.m */; };
+		5C1A7EF1208886D6009AEB68 /* Masonry_UIScrollerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7EF0208886D6009AEB68 /* Masonry_UIScrollerViewUITests.m */; };
+		5C1A7F0020889666009AEB68 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7EFF20889666009AEB68 /* RootViewController.m */; };
+		5C1A7F03208896F4009AEB68 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7F02208896F4009AEB68 /* Model.m */; };
+		5C1A7F06208896FF009AEB68 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7F05208896FF009AEB68 /* ViewModel.m */; };
+		5C1A7F0C20889732009AEB68 /* ModelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7F0B20889732009AEB68 /* ModelTableViewCell.m */; };
+		5C1A7F1420897B26009AEB68 /* VerticalScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7F1320897B26009AEB68 /* VerticalScrollerViewController.m */; };
+		5C1A7F1720897BA6009AEB68 /* HorizontalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A7F1620897BA6009AEB68 /* HorizontalScrollViewController.m */; };
+		75E8F4D32FBFABBC50245786 /* libPods-Masonry-UIScrollerViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CE28BE4A8F849A09967859 /* libPods-Masonry-UIScrollerViewTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C1A7EE2208886D6009AEB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1A7EC1208886D6009AEB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1A7EC8208886D6009AEB68;
+			remoteInfo = "Masonry-UIScrollerView";
+		};
+		5C1A7EED208886D6009AEB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1A7EC1208886D6009AEB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1A7EC8208886D6009AEB68;
+			remoteInfo = "Masonry-UIScrollerView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0647C87980DFD1AD210D8EAC /* Pods-Masonry-UIScrollerViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry-UIScrollerViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry-UIScrollerViewTests/Pods-Masonry-UIScrollerViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F533F4BD447173B076D18C3 /* libPods-Masonry-UIScrollerViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masonry-UIScrollerViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B06CE6DB03A166F97D6585 /* libPods-Masonry-UIScrollerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masonry-UIScrollerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5083FCD59DC403440007E5D5 /* Pods-Masonry-UIScrollerViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry-UIScrollerViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry-UIScrollerViewUITests/Pods-Masonry-UIScrollerViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51046043C92568F99A76147B /* Pods-Masonry-UIScrollerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry-UIScrollerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry-UIScrollerView/Pods-Masonry-UIScrollerView.release.xcconfig"; sourceTree = "<group>"; };
+		5C1A7EC9208886D6009AEB68 /* Masonry-UIScrollerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masonry-UIScrollerView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1A7ECC208886D6009AEB68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C1A7ECD208886D6009AEB68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C1A7ECF208886D6009AEB68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C1A7ED0208886D6009AEB68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C1A7ED3208886D6009AEB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1A7ED5208886D6009AEB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1A7ED8208886D6009AEB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1A7EDA208886D6009AEB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1A7EDB208886D6009AEB68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C1A7EE1208886D6009AEB68 /* Masonry-UIScrollerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masonry-UIScrollerViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1A7EE5208886D6009AEB68 /* Masonry_UIScrollerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry_UIScrollerViewTests.m; sourceTree = "<group>"; };
+		5C1A7EE7208886D6009AEB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1A7EEC208886D6009AEB68 /* Masonry-UIScrollerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masonry-UIScrollerViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1A7EF0208886D6009AEB68 /* Masonry_UIScrollerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry_UIScrollerViewUITests.m; sourceTree = "<group>"; };
+		5C1A7EF2208886D6009AEB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1A7EFE20889666009AEB68 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5C1A7EFF20889666009AEB68 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5C1A7F01208896F4009AEB68 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		5C1A7F02208896F4009AEB68 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		5C1A7F04208896FF009AEB68 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		5C1A7F05208896FF009AEB68 /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		5C1A7F0A20889732009AEB68 /* ModelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelTableViewCell.h; sourceTree = "<group>"; };
+		5C1A7F0B20889732009AEB68 /* ModelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelTableViewCell.m; sourceTree = "<group>"; };
+		5C1A7F1220897B26009AEB68 /* VerticalScrollerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalScrollerViewController.h; sourceTree = "<group>"; };
+		5C1A7F1320897B26009AEB68 /* VerticalScrollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalScrollerViewController.m; sourceTree = "<group>"; };
+		5C1A7F1520897BA6009AEB68 /* HorizontalScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollViewController.h; sourceTree = "<group>"; };
+		5C1A7F1620897BA6009AEB68 /* HorizontalScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollViewController.m; sourceTree = "<group>"; };
+		B6CE28BE4A8F849A09967859 /* libPods-Masonry-UIScrollerViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masonry-UIScrollerViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73B7F60588F2A2BC218CE08 /* Pods-Masonry-UIScrollerViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry-UIScrollerViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry-UIScrollerViewUITests/Pods-Masonry-UIScrollerViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E86875AF7BB3628F0E161E90 /* Pods-Masonry-UIScrollerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry-UIScrollerViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry-UIScrollerViewTests/Pods-Masonry-UIScrollerViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB136DB5B3D76BF530FFB140 /* Pods-Masonry-UIScrollerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry-UIScrollerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Masonry-UIScrollerView/Pods-Masonry-UIScrollerView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1A7EC6208886D6009AEB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4654DDB62DD55816FB812E76 /* libPods-Masonry-UIScrollerView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1A7EDE208886D6009AEB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E8F4D32FBFABBC50245786 /* libPods-Masonry-UIScrollerViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1A7EE9208886D6009AEB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E59AC342C78C1A24C9DF8B /* libPods-Masonry-UIScrollerViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5363F7FAE6876219E47BE699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30B06CE6DB03A166F97D6585 /* libPods-Masonry-UIScrollerView.a */,
+				B6CE28BE4A8F849A09967859 /* libPods-Masonry-UIScrollerViewTests.a */,
+				2F533F4BD447173B076D18C3 /* libPods-Masonry-UIScrollerViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C1A7EC0208886D6009AEB68 = {
+			isa = PBXGroup;
+			children = (
+				5C1A7ECB208886D6009AEB68 /* Masonry-UIScrollerView */,
+				5C1A7EE4208886D6009AEB68 /* Masonry-UIScrollerViewTests */,
+				5C1A7EEF208886D6009AEB68 /* Masonry-UIScrollerViewUITests */,
+				5C1A7ECA208886D6009AEB68 /* Products */,
+				FB56BCB6C4ADE58F366FE33C /* Pods */,
+				5363F7FAE6876219E47BE699 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C1A7ECA208886D6009AEB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A7EC9208886D6009AEB68 /* Masonry-UIScrollerView.app */,
+				5C1A7EE1208886D6009AEB68 /* Masonry-UIScrollerViewTests.xctest */,
+				5C1A7EEC208886D6009AEB68 /* Masonry-UIScrollerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1A7ECB208886D6009AEB68 /* Masonry-UIScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A7ECC208886D6009AEB68 /* AppDelegate.h */,
+				5C1A7ECD208886D6009AEB68 /* AppDelegate.m */,
+				5C1A7F0D208976BA009AEB68 /* MVVM */,
+				5C1A7ECF208886D6009AEB68 /* ViewController.h */,
+				5C1A7ED0208886D6009AEB68 /* ViewController.m */,
+				5C1A7ED2208886D6009AEB68 /* Main.storyboard */,
+				5C1A7ED5208886D6009AEB68 /* Assets.xcassets */,
+				5C1A7ED7208886D6009AEB68 /* LaunchScreen.storyboard */,
+				5C1A7EDA208886D6009AEB68 /* Info.plist */,
+				5C1A7EDB208886D6009AEB68 /* main.m */,
+			);
+			path = "Masonry-UIScrollerView";
+			sourceTree = "<group>";
+		};
+		5C1A7EE4208886D6009AEB68 /* Masonry-UIScrollerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A7EE5208886D6009AEB68 /* Masonry_UIScrollerViewTests.m */,
+				5C1A7EE7208886D6009AEB68 /* Info.plist */,
+			);
+			path = "Masonry-UIScrollerViewTests";
+			sourceTree = "<group>";
+		};
+		5C1A7EEF208886D6009AEB68 /* Masonry-UIScrollerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A7EF0208886D6009AEB68 /* Masonry_UIScrollerViewUITests.m */,
+				5C1A7EF2208886D6009AEB68 /* Info.plist */,
+			);
+			path = "Masonry-UIScrollerViewUITests";
+			sourceTree = "<group>";
+		};
+		5C1A7F0D208976BA009AEB68 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A7F11208976EE009AEB68 /* root */,
+				5C1A7F1220897B26009AEB68 /* VerticalScrollerViewController.h */,
+				5C1A7F1320897B26009AEB68 /* VerticalScrollerViewController.m */,
+				5C1A7F1520897BA6009AEB68 /* HorizontalScrollViewController.h */,
+				5C1A7F1620897BA6009AEB68 /* HorizontalScrollViewController.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		5C1A7F11208976EE009AEB68 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A7EFE20889666009AEB68 /* RootViewController.h */,
+				5C1A7EFF20889666009AEB68 /* RootViewController.m */,
+				5C1A7F01208896F4009AEB68 /* Model.h */,
+				5C1A7F02208896F4009AEB68 /* Model.m */,
+				5C1A7F04208896FF009AEB68 /* ViewModel.h */,
+				5C1A7F05208896FF009AEB68 /* ViewModel.m */,
+				5C1A7F0A20889732009AEB68 /* ModelTableViewCell.h */,
+				5C1A7F0B20889732009AEB68 /* ModelTableViewCell.m */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		FB56BCB6C4ADE58F366FE33C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB136DB5B3D76BF530FFB140 /* Pods-Masonry-UIScrollerView.debug.xcconfig */,
+				51046043C92568F99A76147B /* Pods-Masonry-UIScrollerView.release.xcconfig */,
+				0647C87980DFD1AD210D8EAC /* Pods-Masonry-UIScrollerViewTests.debug.xcconfig */,
+				E86875AF7BB3628F0E161E90 /* Pods-Masonry-UIScrollerViewTests.release.xcconfig */,
+				5083FCD59DC403440007E5D5 /* Pods-Masonry-UIScrollerViewUITests.debug.xcconfig */,
+				D73B7F60588F2A2BC218CE08 /* Pods-Masonry-UIScrollerViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1A7EC8208886D6009AEB68 /* Masonry-UIScrollerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1A7EF5208886D6009AEB68 /* Build configuration list for PBXNativeTarget "Masonry-UIScrollerView" */;
+			buildPhases = (
+				9789B81FD6EBBBA9EDA02511 /* [CP] Check Pods Manifest.lock */,
+				5C1A7EC5208886D6009AEB68 /* Sources */,
+				5C1A7EC6208886D6009AEB68 /* Frameworks */,
+				5C1A7EC7208886D6009AEB68 /* Resources */,
+				5CD1880FE7EBBDCCFDF7A5D0 /* [CP] Embed Pods Frameworks */,
+				E9201014742767EA684616CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masonry-UIScrollerView";
+			productName = "Masonry-UIScrollerView";
+			productReference = 5C1A7EC9208886D6009AEB68 /* Masonry-UIScrollerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C1A7EE0208886D6009AEB68 /* Masonry-UIScrollerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1A7EF8208886D6009AEB68 /* Build configuration list for PBXNativeTarget "Masonry-UIScrollerViewTests" */;
+			buildPhases = (
+				412B7C6589F38201F06AD069 /* [CP] Check Pods Manifest.lock */,
+				5C1A7EDD208886D6009AEB68 /* Sources */,
+				5C1A7EDE208886D6009AEB68 /* Frameworks */,
+				5C1A7EDF208886D6009AEB68 /* Resources */,
+				EC5130AE2B2A310A9DA253C8 /* [CP] Embed Pods Frameworks */,
+				2DCFC6367CB1EBD2C6582AA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1A7EE3208886D6009AEB68 /* PBXTargetDependency */,
+			);
+			name = "Masonry-UIScrollerViewTests";
+			productName = "Masonry-UIScrollerViewTests";
+			productReference = 5C1A7EE1208886D6009AEB68 /* Masonry-UIScrollerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1A7EEB208886D6009AEB68 /* Masonry-UIScrollerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1A7EFB208886D6009AEB68 /* Build configuration list for PBXNativeTarget "Masonry-UIScrollerViewUITests" */;
+			buildPhases = (
+				63CAAC3F4EC1E8E33646FBDB /* [CP] Check Pods Manifest.lock */,
+				5C1A7EE8208886D6009AEB68 /* Sources */,
+				5C1A7EE9208886D6009AEB68 /* Frameworks */,
+				5C1A7EEA208886D6009AEB68 /* Resources */,
+				3B343059D8AB608DA1703767 /* [CP] Embed Pods Frameworks */,
+				0CC5CDD1F50E4A896248D012 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1A7EEE208886D6009AEB68 /* PBXTargetDependency */,
+			);
+			name = "Masonry-UIScrollerViewUITests";
+			productName = "Masonry-UIScrollerViewUITests";
+			productReference = 5C1A7EEC208886D6009AEB68 /* Masonry-UIScrollerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1A7EC1208886D6009AEB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Loren;
+				TargetAttributes = {
+					5C1A7EC8208886D6009AEB68 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5C1A7EE0208886D6009AEB68 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1A7EC8208886D6009AEB68;
+					};
+					5C1A7EEB208886D6009AEB68 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1A7EC8208886D6009AEB68;
+					};
+				};
+			};
+			buildConfigurationList = 5C1A7EC4208886D6009AEB68 /* Build configuration list for PBXProject "Masonry-UIScrollerView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1A7EC0208886D6009AEB68;
+			productRefGroup = 5C1A7ECA208886D6009AEB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1A7EC8208886D6009AEB68 /* Masonry-UIScrollerView */,
+				5C1A7EE0208886D6009AEB68 /* Masonry-UIScrollerViewTests */,
+				5C1A7EEB208886D6009AEB68 /* Masonry-UIScrollerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1A7EC7208886D6009AEB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1A7ED9208886D6009AEB68 /* LaunchScreen.storyboard in Resources */,
+				5C1A7ED6208886D6009AEB68 /* Assets.xcassets in Resources */,
+				5C1A7ED4208886D6009AEB68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1A7EDF208886D6009AEB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1A7EEA208886D6009AEB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC5CDD1F50E4A896248D012 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masonry-UIScrollerViewUITests/Pods-Masonry-UIScrollerViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCFC6367CB1EBD2C6582AA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masonry-UIScrollerViewTests/Pods-Masonry-UIScrollerViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B343059D8AB608DA1703767 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masonry-UIScrollerViewUITests/Pods-Masonry-UIScrollerViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		412B7C6589F38201F06AD069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Masonry-UIScrollerViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD1880FE7EBBDCCFDF7A5D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masonry-UIScrollerView/Pods-Masonry-UIScrollerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63CAAC3F4EC1E8E33646FBDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Masonry-UIScrollerViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9789B81FD6EBBBA9EDA02511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Masonry-UIScrollerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9201014742767EA684616CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masonry-UIScrollerView/Pods-Masonry-UIScrollerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5130AE2B2A310A9DA253C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masonry-UIScrollerViewTests/Pods-Masonry-UIScrollerViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1A7EC5208886D6009AEB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1A7F06208896FF009AEB68 /* ViewModel.m in Sources */,
+				5C1A7ED1208886D6009AEB68 /* ViewController.m in Sources */,
+				5C1A7EDC208886D6009AEB68 /* main.m in Sources */,
+				5C1A7F1720897BA6009AEB68 /* HorizontalScrollViewController.m in Sources */,
+				5C1A7F0C20889732009AEB68 /* ModelTableViewCell.m in Sources */,
+				5C1A7F0020889666009AEB68 /* RootViewController.m in Sources */,
+				5C1A7ECE208886D6009AEB68 /* AppDelegate.m in Sources */,
+				5C1A7F1420897B26009AEB68 /* VerticalScrollerViewController.m in Sources */,
+				5C1A7F03208896F4009AEB68 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1A7EDD208886D6009AEB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1A7EE6208886D6009AEB68 /* Masonry_UIScrollerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1A7EE8208886D6009AEB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1A7EF1208886D6009AEB68 /* Masonry_UIScrollerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1A7EE3208886D6009AEB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1A7EC8208886D6009AEB68 /* Masonry-UIScrollerView */;
+			targetProxy = 5C1A7EE2208886D6009AEB68 /* PBXContainerItemProxy */;
+		};
+		5C1A7EEE208886D6009AEB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1A7EC8208886D6009AEB68 /* Masonry-UIScrollerView */;
+			targetProxy = 5C1A7EED208886D6009AEB68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C1A7ED2208886D6009AEB68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1A7ED3208886D6009AEB68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1A7ED7208886D6009AEB68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1A7ED8208886D6009AEB68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1A7EF3208886D6009AEB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C1A7EF4208886D6009AEB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1A7EF6208886D6009AEB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB136DB5B3D76BF530FFB140 /* Pods-Masonry-UIScrollerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUXW2J69W2;
+				INFOPLIST_FILE = "Masonry-UIScrollerView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Masonry-UIScrollerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C1A7EF7208886D6009AEB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51046043C92568F99A76147B /* Pods-Masonry-UIScrollerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUXW2J69W2;
+				INFOPLIST_FILE = "Masonry-UIScrollerView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Masonry-UIScrollerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C1A7EF9208886D6009AEB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0647C87980DFD1AD210D8EAC /* Pods-Masonry-UIScrollerViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = "Masonry-UIScrollerViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.Masonry-UIScrollerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masonry-UIScrollerView.app/Masonry-UIScrollerView";
+			};
+			name = Debug;
+		};
+		5C1A7EFA208886D6009AEB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86875AF7BB3628F0E161E90 /* Pods-Masonry-UIScrollerViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = "Masonry-UIScrollerViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.Masonry-UIScrollerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masonry-UIScrollerView.app/Masonry-UIScrollerView";
+			};
+			name = Release;
+		};
+		5C1A7EFC208886D6009AEB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5083FCD59DC403440007E5D5 /* Pods-Masonry-UIScrollerViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = "Masonry-UIScrollerViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.Masonry-UIScrollerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Masonry-UIScrollerView";
+			};
+			name = Debug;
+		};
+		5C1A7EFD208886D6009AEB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73B7F60588F2A2BC218CE08 /* Pods-Masonry-UIScrollerViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US7FL8B984;
+				INFOPLIST_FILE = "Masonry-UIScrollerViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.Masonry-UIScrollerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Masonry-UIScrollerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1A7EC4208886D6009AEB68 /* Build configuration list for PBXProject "Masonry-UIScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1A7EF3208886D6009AEB68 /* Debug */,
+				5C1A7EF4208886D6009AEB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1A7EF5208886D6009AEB68 /* Build configuration list for PBXNativeTarget "Masonry-UIScrollerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1A7EF6208886D6009AEB68 /* Debug */,
+				5C1A7EF7208886D6009AEB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1A7EF8208886D6009AEB68 /* Build configuration list for PBXNativeTarget "Masonry-UIScrollerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1A7EF9208886D6009AEB68 /* Debug */,
+				5C1A7EFA208886D6009AEB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1A7EFB208886D6009AEB68 /* Build configuration list for PBXNativeTarget "Masonry-UIScrollerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1A7EFC208886D6009AEB68 /* Debug */,
+				5C1A7EFD208886D6009AEB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1A7EC1208886D6009AEB68 /* Project object */;
+}
